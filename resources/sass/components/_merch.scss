@@ -1,0 +1,68 @@
+
+.merch{
+  background: url('/img/merch/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.merch__grid{
+  display: grid;
+  grid-template-columns: 100%;
+  margin:auto;
+  width: 90%;
+}
+
+.merch__itembox{
+  background: $secondary-background-color;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  transform: scale(.9);
+  transition: all .3s;
+}
+
+.merch__itembox:hover{
+  background: $tertiary-background-color;
+
+  .merch__itembox div{
+    opacity: 1;
+  }
+}
+
+.merch__itembox img{
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+.merch{
+  background: url('/img/merch/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.merch__grid{
+  grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+  width: 1000px;
+}
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

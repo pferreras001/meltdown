@@ -1,0 +1,150 @@
+.music{
+  background: url('/img/music/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.music__grid{
+  display: grid;
+  grid-template-columns: 100%;
+  margin: auto;
+  width: 90%;
+}
+
+.music__item{
+  height:250px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+}
+
+.music__item:hover{
+
+  .music__info{
+    transform:translateX(40%);
+  } 
+}
+
+
+
+
+
+
+
+
+
+.music__item img{
+  opacity: .7;
+  position: absolute;
+  width: 250px;
+}
+
+
+
+
+.music__info{
+  height:250px;
+  background: $primary-background-color;
+  padding: 10px;
+  position: absolute;
+  transform: translateX(100%);
+  transition: transform .2s;
+  width: 250px;
+}
+
+
+
+
+
+.music__item div:nth-child(2) h2{
+  font-size: 10px;
+  margin-top: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 180px;
+}
+
+.music__item div:nth-child(2) h3{
+  color: $secondary-font-color;
+  font-size: 12px;
+}
+
+.music__item div:nth-child(2) h3 span{
+  font-style: italic;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+.music__item div:nth-child(3){
+  margin-left: 42px;
+  margin-top: 30px;
+}
+
+.music__item div:nth-child(3) .icon{
+  fill: $secondary-font-color;
+  margin-right: 15px;
+  width: 30px;
+}
+
+
+
+
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+.music{
+  background: url('/img/music/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.music__grid{
+  grid-template-columns: 50% 50%;
+  width: 1000px;
+}
+
+.music__item{
+  height:400px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.music__item img{
+  position: absolute;
+  width: 400px;
+}
+
+.music__info{
+  height:400px;
+  padding: 10px;
+  width: 400px;
+}
+
+.music__item div:nth-child(2) h2{
+  font-size: 12px;
+  margin-top: 120px;
+  letter-spacing: 5px;
+  width: 210px;
+}
+
+}
+@media #{$breakpoints-xlarge} {
+
+}

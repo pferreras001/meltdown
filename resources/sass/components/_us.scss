@@ -1,0 +1,67 @@
+
+.us{
+  background: url('/img/us/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.us__logo{
+  margin: auto;
+  text-align: center;
+  width: 100px;
+}
+
+.us__logo .icon{
+  fill: $primary-font-color;
+  width: 50px;
+}
+
+.us__text{
+  margin: 100px 50px 0 50px;
+}
+
+.us__text p{
+  column-count: 1;
+  text-align: justify;
+}
+
+.us__text span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.us__text strong{
+  color: $secondary-font-color;
+}
+
+
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+
+.us{
+  background: url('/img/us/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.us__text p{
+  column-count: 2;
+  text-align: justify;
+}
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

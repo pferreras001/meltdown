@@ -1,0 +1,115 @@
+.tour{
+  background: url('/img/tour/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.tour table{
+  font-size: 12px;
+  margin: auto;
+  width: 90vw;
+}
+
+.table td:nth-child(4), .table td:nth-child(5){
+  display:none;
+}
+
+.table th:nth-child(4), .table th:nth-child(5){
+  display: none;
+}
+
+.tour .table-dark{
+  background-color: transparent !important;
+}
+
+.tour__bands{
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.tour__table button{
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+}
+
+
+
+
+.tour__noshows{
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+
+
+
+.tour__history{
+  font-size: 40px;
+  color: $secondary-font-color;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: 90%;
+}
+
+.tour__history a{
+  transition: opacity .2s;
+}
+
+.tour__history a:hover{
+  opacity: .6;
+}
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+.tour{
+  background: url('/img/tour/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.tour table{
+  font-size: 15px;
+  width: 100%;
+}
+
+.table td:nth-child(4), .table td:nth-child(5){
+  display: table-cell;
+}
+
+.table th:nth-child(4), .table th:nth-child(5){
+  display: table-cell;
+}
+
+
+
+.tour__noshows{
+  font-size: 30px;
+  width: 400px;
+}
+
+
+
+.tour__history{
+  width: 500px;
+}
+
+}
+@media #{$breakpoints-xlarge} {
+
+}

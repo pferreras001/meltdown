@@ -1,0 +1,64 @@
+
+.contact{
+  background: url('/img/contact/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact__contact{
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.contact__block{
+  margin: 25px 0 25px 0;
+}
+
+.contact__block:hover{
+  .contact__name{
+    text-decoration: underline;
+  }
+}
+
+.contact__role{
+  color: $secondary-font-color;
+  font-size: 40px;
+}
+
+
+
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+.contact{
+  background: url('/img/contact/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact__contact{
+  font-size: 30px;
+  width: 800px;
+}
+
+.contact__role{
+  color: $secondary-font-color;
+  font-size: 30px;
+}
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

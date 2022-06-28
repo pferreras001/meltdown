@@ -1,0 +1,98 @@
+.history{
+  background: url('/img/tour/background-small.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.history table{
+  font-size: 12px;
+  margin: auto;
+  width: 90vw;
+}
+
+.table td:nth-child(4), .table td:nth-child(5){
+  display:none;
+}
+
+.table th:nth-child(4), .table th:nth-child(5){
+  display: none;
+}
+
+.history .table-dark{
+  background-color: transparent !important;
+}
+
+.history__bands{
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.history__table button{
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+}
+
+
+
+
+.history__back{
+  font-size: 40px;
+  color: $secondary-font-color;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: 90%;
+}
+
+.history__back a{
+  transition: opacity .2s;
+}
+
+.history__back a:hover{
+  opacity: .6;
+}
+
+
+
+@media #{$breakpoints-medium} {
+
+}
+
+@media #{$breakpoints-large} {
+
+.history{
+  background: url('/img/tour/background.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.history table{
+  font-size: 15px;
+  width: 100%;
+}
+
+.table td:nth-child(4), .table td:nth-child(5){
+  display: table-cell;
+}
+
+.table th:nth-child(4), .table th:nth-child(5){
+  display: table-cell;
+}
+
+
+
+.history__history{
+  width: 400px;
+}
+
+}
+@media #{$breakpoints-xlarge} {
+
+}

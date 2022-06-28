@@ -1,0 +1,24 @@
+
+/////// Colors
+
+$color-white: white;
+$color-black: black;
+$color-black-transparent: rgba(0,0,0,.9);
+$color-black-transparent-2: rgba(0,0,0,.7);
+$color-gray-1:rgba(255,255,255,.5);
+$color-garnet-1:#ab2525;
+$color-gartet-2:rgba(125, 33, 33, .5);
+$color-gartet-3:rgba(178, 37, 35, 0.9);
+$color-blue-1:rgba(34, 85, 129, .5);
+
+
+/////// Using
+
+$primary-font-color: $color-white;
+$secondary-font-color: $color-gray-1;
+$tertiary-font-color: $color-garnet-1;
+
+
+$primary-background-color: $color-black;
+$secondary-background-color:$color-gartet-2;
+$tertiary-background-color:$color-blue-1;
